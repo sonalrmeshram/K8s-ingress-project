@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: orders
-        image: your-orders-image:latest
+        image: 049820221501.dkr.ecr.us-east-1.amazonaws.com/sonal/sonal:orders
         ports:
         - containerPort: 80
