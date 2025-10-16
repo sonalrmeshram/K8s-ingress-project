@@ -4,6 +4,7 @@ metadata:
   name: catalog
 spec:
   selector:
+   type: ClusterIP
     app: catalog
   ports:
     - protocol: TCP
