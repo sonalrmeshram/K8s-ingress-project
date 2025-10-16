@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: catalog
 spec:
+  type: ClusterIP
   selector:
-   type: ClusterIP
     app: catalog
   ports:
     - protocol: TCP
