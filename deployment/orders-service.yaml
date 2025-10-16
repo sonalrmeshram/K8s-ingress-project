@@ -4,6 +4,7 @@ metadata:
   name: orders
 spec:
   selector:
+  type: ClusterIP
     app: orders
   ports:
     - protocol: TCP
